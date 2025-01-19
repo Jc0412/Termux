@@ -1,0 +1,8 @@
+Step 1:
+pkg update -y && echo "y" | termux-setup-storage && pkg install python tsu libexpat openssl lua53 imagemagick chafa -y && pip install requests psutil aiohttp wand crypto
+
+Step 2:
+curl -L -o /sdcard/download/reconnect.lua https://raw.githubusercontent.com/nullus7/reconnect/refs/heads/main/reconnect.lua
+
+Step 3:
+lua /sdcard/download/reconnect.lua
